@@ -1,0 +1,24 @@
+/*html *{
+	border: solid black;
+}*/
+#logo{
+	display:inline-block;
+	height:95px;
+	width:300px;
+	display:block;
+	margin:auto;
+
+}
+
+.form{
+	height:100px;
+}
+
+#search{
+	margin:auto;
+	height:35px;
+	width:450px;
+	display:block;
+	font-size: 18px
+
+}
