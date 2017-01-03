@@ -1,8 +1,14 @@
 /*html *{
-	border: solid black;
+	border: 3px solid black;
 }*/
+
 #logo{
-	display:inline-block;
+	margin:0;
+	padding:0;
+}
+
+#logo img{
+	
 	height:95px;
 	width:300px;
 	display:block;
@@ -10,9 +16,10 @@
 	margin-top: 180px;
 
 }
-
 .form{
 	height:100px;
+	text-align: center;
+	margin:auto;
 }
 
 #search{
@@ -28,15 +35,14 @@
 }
 
 .NavBar{
-	list-style-type:none;
-	padding:0px 30px 35px 30px;
+	
+	padding:0px 30px 30px 30px;
 	
 }
 
 .NavBar li{
 	display:inline;
 	float:right;
-	font-size:13px;
 	padding:8px 8px;
 	font-family:arial, sans-serif;
 
@@ -44,11 +50,11 @@
 
 
 
-li a{
+a{
 	text-decoration: none;
 	color:black;
-	display:inline-block;
-	
+	font-size: 13px;
+
 }
 
 #grid {
@@ -70,3 +76,65 @@ li a{
 #signin a{color:white;
 
 }
+
+.buttons {
+	text-align:center;
+	position:relative;
+	top:25px;
+	width:120px;
+	height:36px;
+	margin:11px 4px;
+	border-radius:2px;
+	color:#757575;
+	background-color: #f2f2f2;
+	-webkit-border-radius: 2px;
+	border: 1px solid #f2f2f2;
+}
+
+#footer{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	height:40px;
+	display:block;
+	line-height: 40px;
+	background-color:#f2f2f2;
+	position:absolute;
+	bottom:0;
+	width:100%;
+	border-top:1px #e4e4e4;
+
+}
+
+#footer ul{
+	margin:0;
+	padding:0;
+}
+
+#footer li{
+	display:inline;
+	text-align:center;
+	display:inline-block;
+
+}
+
+.navObjright {
+	float:right;
+	margin:0px 30px 0px 0px;
+}
+.navObjleft {
+	margin:0px 0px 0px 25px;
+	
+}
+
+#footer a{
+	color:#222222;
+	font-family:arial, sans-serif;
+	font-size:13px;
+}
+
+
+
+
+
+
